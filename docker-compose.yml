@@ -1,0 +1,11 @@
+version: "2"
+services:
+  dewey-server:
+    build: .
+    ports:
+      - 30080:3000
+    environment:
+      - NODE_ENV=production 
+      - DEWEY_SERVER_MAX_WEBSHOT=30 
+      - DEWEY_SERVER_MAX_FAVICON=32 
+      - DEWEY_SERVER_APPINSIGHTS_KEY=8d5f42ce-5b05-4b78-9c85-26a4478d4819 

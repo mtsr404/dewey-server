@@ -1,6 +1,7 @@
-# dewey-server
+# dewey-local-server
 
-> Dewey server for generating screenshots and retrieving favicons
+- start-dewey-server.shでローカルのサムネイル生成サーバーを起動
+- dewey-chrome-extensionをchromeの拡張機能に追加
 
 ## Powered by
 

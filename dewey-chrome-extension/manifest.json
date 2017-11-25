@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "app.html"
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com 'unsafe-eval'; object-src 'self'",
+   "description": "Dewey adds custom tags, screenshots, and smarter search to your Chrome bookmarks.",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxX6h/tiXh8O+nbDJztA+dDrAeydQX+n0zv6Nf4iNO2vMDPkBxGIJ6LTRhfM5cv6WLujGkthIMzMVQaBUexnQxiJs/BS5fI3TxJFT/KE2aQnFzUfxo1sAEKo+VWOrxfVa5woao3VmZ5tRckMwTqdtqFd9DwnnSvEvgJ6ETFTnPagv803swcRCAp+Qp2g0byO8AdETh8Ndmz/+1pRaLntfcPa9nYuwOO3tH6w0MSWx5v/AqkEAU1VPKvUWATSsKqme4xPi4GDyQ4kGjjXjSAZz9MZwvlxSF70pxcNEbkp2TE1SfwLv3+qNxm9SDdS2C5RWra0VVEgSgeGTccKf+pkW4wIDAQAB",
+   "manifest_version": 2,
+   "name": "Dewey Bookmarks",
+   "permissions": [ "bookmarks", "storage", "http://localhost/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.0"
+}
